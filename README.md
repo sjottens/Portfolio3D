@@ -1,3 +1,4 @@
-# Portfolio3D
-I build this 3D website using Vite + React, Three JS &amp; GSAP &amp; JavaScript, Tailwindcss.
+# React + Vite + Three JS & GSAP + JavaScript + Tailwindcss
+
+I build this Portfolio website using Vite + React, Three JS & GSAP & JavaScript, Tailwindcss.
 Thanks to @javascriptmastery :-)
