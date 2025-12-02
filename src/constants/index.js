@@ -61,36 +61,32 @@ const logoIconsList = [
     id: 7,
   },
   {
-    imgPath: "/images/logos/LOGO-Eperium.png",
+    imgPath: "/images/logos/PLUS_logo.png",
     id: 8,
   },
   {
-    imgPath: "/images/logos/PLUS_logo.png",
+    imgPath: "/images/logos/trouw-nutrition-logo.png",
     id: 9,
   },
   {
-    imgPath: "/images/logos/trouw-nutrition-logo.png",
+    imgPath: "/images/logos/vml-logo.png",
     id: 10,
   },
   {
-    imgPath: "/images/logos/vml-logo.png",
+    imgPath: "/images/logos/Vwo_logo.png",
     id: 11,
   },
   {
-    imgPath: "/images/logos/Vwo_logo.png",
+    imgPath: "/images/logos/wefashion-logo.png",
     id: 12,
   },
   {
-    imgPath: "/images/logos/wefashion-logo.png",
+    imgPath: "/images/logos/wpp-logo.png",
     id: 13,
   },
   {
-    imgPath: "/images/logos/wpp-logo.png",
-    id: 14,
-  },
-  {
     imgPath: "/images/logos/Xerox-logo.png",
-    id: 15,
+    id: 14,
   },
 ];
 
@@ -171,53 +167,58 @@ const techStackIcons = [
 const expCards = [
   {
     review:
-      "Adrian brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
-    imgPath: "/images/exp1.png",
+      "Rogier brought creativity and technical expertise to the team, significantly improving our frontend UI performance. His work has been invaluable in delivering faster experiences.",
+    imgPath: "/images/logos/alko-logo.png",
     logoPath: "/images/logo1.png",
     title: "Frontend Developer",
+    id: "Alko",
     date: "Dec 2013 - Aug 2025",
     responsibilities: [
-      "Developed and maintained user-facing features for the Hostinger website.",
+      "Developed and maintained user-facing features for the Alko website.",
       "Collaborated closely with UI/UX designers to ensure seamless user experiences.",
       "Optimized web applications for maximum speed and scalability.",
+      "Implementing the new gift card functionality.",
     ],
   },
   {
     review:
-      "Adrian’s contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
-    imgPath: "/images/exp2.png",
+      "Rogier’s contributions to the webshop applications have been outstanding. He approaches challenges with a problem-solving mindset.",
+    imgPath: "/images/logos/isero-logo.png",
     logoPath: "/images/logo2.png",
     title: "Frontend Developer",
+    id: "Isero",
     date: "Dec 2013 - Aug 2025",
     responsibilities: [
-      "Led the development of Docker's web applications, focusing on scalability.",
+      "Led the development of the UI implementation for the webshop, focusing on responsiveness.",
       "Worked with backend engineers to integrate APIs seamlessly with the frontend.",
-      "Contributed to open-source projects that were used with the Docker ecosystem.",
+      "Contributed to the new checkout flow/design that were used with the Intershop ecosystem.",
     ],
   },
   {
     review:
-      "Adrian’s work on Appwrite’s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
-    imgPath: "/images/exp3.png",
+      "Rogier’s work on the implementations of the A/B tests to test new designs on the B2B store, brought a high level of quality and efficiency. He delivered the solutions that enhanced our experience & meet our product goals.",
+    imgPath: "/images/logos/BMN_Bouwmaterialen_Logo.png",
     logoPath: "/images/logo3.png",
     title: "Frontend Developer",
+    id: "BMN",
     date: "Dec 2013 - Aug 2025",
     responsibilities: [
-      "Built cross-platform mobile apps using React Native, integrating with Appwrite's backend services.",
-      "Improved app performance and user experience through code optimization and testing.",
+      "Built A/B tests using VWO, integrating with the React store front.",
+      "Improved the UX and user experience through A/B testing.",
       "Coordinated with the product team to implement features based on feedback.",
     ],
   },
   {
     review:
-      "Rogier’s work on Appwrite’s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
-    imgPath: "/images/exp3.png",
+      "Rogier’s work on PLUS webshop brought a high level of quality and efficiency. He delivered solutions that enhanced our responsive webshop experience & meet our product goals.",
+    imgPath: "/images/logos/PLUS_logo.png",
     logoPath: "/images/logo3.png",
     title: "Desktop Publisher",
+    id: "PLUS",
     date: "March 1998 - Dec 2013",
     responsibilities: [
-      "Built cross-platform mobile apps using React Native, integrating with Appwrite's backend services.",
-      "Improved app performance and user experience through code optimization and testing.",
+      "Built cross-browser website/shop using HTML, Less, JavaScript, Jquery and intershops isml, integrating with Intershop's backend services.",
+      "Improved web performance and user experience through code optimization and testing.",
       "Coordinated with the product team to implement features based on feedback.",
     ],
   },

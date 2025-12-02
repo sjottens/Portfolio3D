@@ -411,8 +411,6 @@ section {
 }
 .marquee-item {
   float: left;
-  min-height: 170px;
-  background-color: white;
 }
 @keyframes marquee {
   0% {

@@ -1,6 +1,7 @@
 import React from 'react'
 import TitleHeader from '../components/TitleHeader.jsx';
 import { expCards } from '../constants/index.js';
+import GlowCard from '../components/GlowCard.jsx';
 
 const ExperienceSection = () => {
   return (
@@ -13,7 +14,13 @@ const ExperienceSection = () => {
             <div className='mmt-32 relative'>
                 {expCards.map((card) => (
                     <div key={card.title} className='exp-card-wrapper'>
-                        {card.title}
+                        <div className='xl:w-2/6'>
+                            <GlowCard card={card}>
+                                <div>
+                                    <img src={card.imgPath} alt={card.title} />
+                                </div>
+                            </GlowCard>
+                        </div>
                     </div>
                 ))}
             </div>
