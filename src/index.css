@@ -259,9 +259,22 @@ section {
   }
 
   .tech-card-animated-bg {
-    @apply absolute left-0 bottom-[-100%] w-full h-full bg-[#2D3240] group-hover:bottom-0 transition-all duration-700;
+    @apply absolute left-0 bottom-[-100%] w-full h-full group-hover:bottom-0 transition-all duration-700;
   }
 
+  .tech-card-content {
+    
+    background: linear-gradient(to top, #0e0e10, darkslategrey);
+    background-size: 100% 200%;     /* double height */
+    background-position: bottom;    /* start at bottom */
+    transition: background-position 0.6s ease;
+  }
+
+  /* Hover moves background upwards */
+  .tech-card-content:hover {
+    background-position: top;
+  }
+  
   .tech-card-content {
     @apply flex flex-col md:justify-center items-center xl:gap-5 xl:h-[50vh] overflow-hidden relative z-10 group-hover:cursor-grab;
 
