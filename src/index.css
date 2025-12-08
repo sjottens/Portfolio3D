@@ -408,6 +408,9 @@ section {
   position: absolute;
   overflow: hidden;
   animation: marquee 30s linear infinite;
+  @media (max-width: 600px) {
+    animation: marquee 5s linear infinite;
+  }
 }
 .marquee-item {
   float: left;

@@ -12,10 +12,10 @@ const ExperienceSection = () => {
                 sub="💼 My Career Overview" 
             />
             <div className='mmt-32 relative'>
-                {expCards.map((card) => (
+                {expCards.map((card, index) => (
                     <div key={card.title} className='exp-card-wrapper'>
                         <div className='xl:w-2/6'>
-                            <GlowCard card={card}>
+                            <GlowCard card={card} index={index}>
                                 <div>
                                     <img src={card.imgPath} alt={card.title} />
                                 </div>
