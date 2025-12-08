@@ -169,7 +169,7 @@ const expCards = [
     review:
       "Rogier brought creativity and technical expertise to the team, significantly improving our frontend UI performance. His work has been invaluable in delivering faster experiences.",
     imgPath: "/images/logos/alko-logo.png",
-    logoPath: "/images/logo1.png",
+    logoPath: "/images/logos/alko-logo-kl.png",
     title: "Frontend Developer",
     id: "Alko",
     date: "Dec 2013 - Aug 2025",
@@ -184,7 +184,7 @@ const expCards = [
     review:
       "Rogier’s contributions to the webshop applications have been outstanding. He approaches challenges with a problem-solving mindset.",
     imgPath: "/images/logos/isero-logo.png",
-    logoPath: "/images/logo2.png",
+    logoPath: "/images/logos/Isero-logo-kl.png",
     title: "Frontend Developer",
     id: "Isero",
     date: "Dec 2013 - Aug 2025",
@@ -198,7 +198,7 @@ const expCards = [
     review:
       "Rogier’s work on the implementations of the A/B tests to test new designs on the B2B store, brought a high level of quality and efficiency. He delivered the solutions that enhanced our experience & meet our product goals.",
     imgPath: "/images/logos/BMN_Bouwmaterialen_Logo.png",
-    logoPath: "/images/logo3.png",
+    logoPath: "/images/logos/BMN-logo-kl.png",
     title: "Frontend Developer",
     id: "BMN",
     date: "Dec 2013 - Aug 2025",
@@ -212,7 +212,7 @@ const expCards = [
     review:
       "Rogier’s work on PLUS webshop brought a high level of quality and efficiency. He delivered solutions that enhanced our responsive webshop experience & meet our product goals.",
     imgPath: "/images/logos/PLUS_logo.png",
-    logoPath: "/images/logo3.png",
+    logoPath: "/images/logos/PLUS-logo-kl.png",
     title: "Desktop Publisher",
     id: "PLUS",
     date: "March 1998 - Dec 2013",
