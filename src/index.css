@@ -225,7 +225,7 @@ section {
         -translate-y-1/2 flex justify-center items-center overflow-hidden;
 
       img {
-        @apply size-5 xl:-translate-y-32 translate-y-0 animate-bounce group-hover:translate-y-0 transition-all duration-500;
+        @apply size-5 translate-y-0 animate-bounce group-hover:translate-y-0 transition-all duration-500;
       }
     }
   }
@@ -348,7 +348,7 @@ section {
 .wrapper {
   display: flex;
   flex-direction: column;
-  animation: wordSlider 21s infinite cubic-bezier(0.9, 0.01, 0.3, 0.99);
+  animation: wordSlider 10s infinite cubic-bezier(0.1, 0.1, 0.1, 0.1);
 }
 
 @keyframes wordSlider {
