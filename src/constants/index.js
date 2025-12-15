@@ -241,46 +241,85 @@ const expLogos = [
 
 const testimonials = [
   {
-    name: "Esther Howard",
-    mentions: "@estherhoward",
+    name: "Bouwmaterialen Nederland",
+    urlName: "www.BMN.nl",
+    mentions: "https://www.BMN.nl",
     review:
-      "I can’t say enough good things about Adrian. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.",
-    imgPath: "/images/client1.png",
+      "Setting up A/B tests with VWO.com, converting designs to HTML, CSS, and JavaScript. I collaborated with a designer and a business analyst on this process.",
+    stack: "HTML, CSS, JavaScript.",
+    imgPath: "/images/logos/BMN_Bouwmaterialen_Logo.png",
   },
   {
-    name: "Wade Warren",
-    mentions: "@wadewarren",
+    name: "Alko.fi",
+    urlName: "www.Alko.fi",
+    mentions: "https://www.Alko.fi",
     review:
-      "Working with Adrian was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.",
-    imgPath: "/images/client3.png",
+      "Maintaining an e-commerce website and implementing new designs in a multidisciplinary SCRUM team (India/Amsterdam). Contributed to the development and implementation of the new checkout flow, gift card page and HTML structure, Less, Bootstrap, JavaScript (Jquery), Isml templating.",
+    stack: "HTML, Less, Bootstrap, JavaScript (Jquery), Isml templating Intershop, Email templating, GIT, SCRUM, Figma.",
+    imgPath: "/images/logos/alko-logo.png",
   },
   {
-    name: "Guy Hawkins",
-    mentions: "@guyhawkins",
+    name: "VML",
+    urlName: "www.vml.com",
+    mentions: "https://www.vml.com",
+    stack: "React, Nextjs, JavaScript, CSS, HTML, Contentful, Figma.",
     review:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    imgPath: "/images/client2.png",
+      "Within VML, I worked with React and Nextjs for various proofs of concept, such as creating a starter store in React. I connected Intershop for product data and a Contentful CMS for content.In collaboration with several full-stack developers, my role was creating components, implementing the UI, and writing the CSS, Tailwindcss.",
+    imgPath: "/images/logos/vml-logo.png",
   },
   {
-    name: "Marvin McKinney",
-    mentions: "@marvinmckinney",
+    name: "Isero",
+    urlName: "www.isero.nl",
+    mentions: "https://www.isero.nl",
+    stack: "HTML, Less, Bootstrap, JavaScript (Jquery), Isml templating Intershop, Figma.",
     review:
-      "Adrian was a pleasure to work with. He turned our outdated website into a fresh, intuitive platform that’s both modern and easy to navigate. Fantastic work overall.",
-    imgPath: "/images/client5.png",
+      "Maintaining the e-commerce website and implementing new designs in a multidisciplinary SCRUM team (India/Amsterdam). Contributed to the development and implementation of the new checkout flow/design, setting up the HTML structure, Less, Bootstrap, JavaScript (JQuery), and ISML templating.",
+    imgPath: "/images/logos/isero-logo.png",
   },
   {
-    name: "Floyd Miles",
-    mentions: "@floydmiles",
+    name: "XEROX",
+    urlName: "www.xerox.com",
+    mentions: "https://www.xerox.com",
+    stack: "HTML, Less, Bootstrap, JavaScript (Jquery), Isml templating Intershop.",
     review:
-      "Adrian’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional!",
-    imgPath: "/images/client4.png",
+      "Maintaining the e-commerce website and implementing new designs in a multidisciplinary SCRUM team. I implemented the new designs, setting up the HTML, Less, Bootstrap, JavaScript (JQuery), and ISML templating.",
+    imgPath: "/images/logos/Xerox-logo.png",
   },
   {
-    name: "Albert Flores",
-    mentions: "@albertflores",
+    name: "Hoogvliet",
+    urlName: "www.hoogvliet.com",
+    mentions: "https://www.hoogvliet.com/",
+    stack: "HTML, Less, Bootstrap, JavaScript (Jquery), Mustache.js, Isml templating Intershop.",
     review:
-      "Adrian was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend and backend dev are top-notch.",
-    imgPath: "/images/client6.png",
+      "Maintaining the e-commerce website and implementing new designs, in a multidisciplinary SCRUM team. Responsible for bug fixes, implementing the new checkout flow, and setting up the HTML structure, Less, Bootstrap, JavaScript (JQuery), ISML templating, and using Mustache.js.",
+    imgPath: "/images/logos/Hoogvliet_logo.png",
+  },
+  {
+    name: "bodyandfit.com",
+    urlName: "www.bodyandfit.com",
+    mentions: "https://www.bodyandfit.com",
+    stack: "HTML, CSS, JavaScript, Optimizely.",
+    review:
+      "Setting up A/B testing with Optimizely Web. Converting submitted designs to HTML and CSS using JavaScript within the Optimizely Web platform, optimizing and improving the user experience for higher conversion rates.",
+    imgPath: "/images/logos/body_fit-logo.png",
+  },
+  {
+    name: "PLUS supermarkets",
+    urlName: "www.plus.nl",
+    mentions: "https://www.plus.nl",
+    stack: "HTML, Less, Bootstrap, JavaScript (Jquery), Isml templating Intershop.",
+    review:
+      "Nieuwe E-commerce website opgezet met Intershop in een multidisciplinair SCRUM team op locatie. Betrokken bij het ontwerpen van de pagina’s en verantwoordelijk voor het opzetten van de HTML-structuur, Less, Bootstrap, JavaScript (Jquery), Isml templating.",
+    imgPath: "/images/logos/PLUS_logo.png",
+  },
+  {
+    name: "WE fashion",
+    urlName: "www.wefashion.nl",
+    mentions: "https://www.wefashion.nl",
+    stack: "Email templates HTML en CSS.",
+    review:
+      "The website was migrated from the Intershop platform to the Demandware platform (now Salesforce). I primarily worked on-site, rebuilding the email templates, HTML, and CSS, for WE Fashion.",
+    imgPath: "/images/logos/wefashion-logo.png",
   },
 ];
 

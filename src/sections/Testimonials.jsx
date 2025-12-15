@@ -13,14 +13,13 @@ const Testimonials = () => {
             />
 
             <div className='lg:columns-3 md:columns-2 columns-1 mt-16'>
-                {testimonials.map(({ imgPath, name, mentions, review }) => (
-                    <GlowCard card={{review }} key={name}>
-                        <div>
+                {testimonials.map(({ imgPath, name, urlName, mentions, review }) => (
+                    <GlowCard card={{review, name }} key={name}>
+                        <div className='mb-2'>
                             <img src={imgPath} alt={name} />
                         </div>
                         <div>
-                            <p className='font-bold'>{name}</p>
-                            <p >{mentions}</p>
+                            <p ><a href={mentions} target="_blank" alt={name} className='font-bold relative z-99'>{urlName}</a></p>
                         </div>
                     </GlowCard>
                 ))}

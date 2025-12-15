@@ -29,6 +29,7 @@ const GlowCard = ({ card, children, index}) => {
             ))}
         </div>
         <div className='mb-5'>
+            <h2 className='text-white-50/50 text-2xl font-bold'>{card.name}</h2>
             <p className='text-white-50 text-lg'>{card.review}</p>
         </div> 
         {children}
