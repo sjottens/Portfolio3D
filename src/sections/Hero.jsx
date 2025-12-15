@@ -54,7 +54,7 @@ const Hero = () => {
                         <h2>that Deliver Results</h2>
                     </div>
                     <p className="text-white-50 md:text-xl relative z-10 pointer-events-none">
-                        Hi, I'm Rogier, Frontend Developer based in the Netherlands <br />
+                        Hi, I'm Rogier Ottens, Frontend Developer based in the Netherlands <br />
                         specializing in crafting user-friendly websites and applications.
                     </p>
                     <Button 
