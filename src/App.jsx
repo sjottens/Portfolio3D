@@ -8,10 +8,13 @@ import TechStack from "./sections/TechStack";
 import Testimonials from "./sections/Testimonials";
 import Contact from "./sections/Contact";
 import Footer from "./sections/Footer";
+import ClickPulse from "./components/ClickPulse";
 
 const App = () => {
+
   return (
     <>
+      <ClickPulse />
       <NavBar />
       <Hero />
       <ShowcaseSection />
