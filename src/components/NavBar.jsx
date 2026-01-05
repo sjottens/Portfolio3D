@@ -1,6 +1,13 @@
 import { useEffect, useState } from "react";
 import { navLinks } from "../constants/index.js";
+import ReactGA from "react-ga4";
 
+const handleButtonClick = () => {
+  ReactGA.event({
+    category: 'User',
+    action: 'Clicked a button'
+  });
+};
 
 const NavBar = () => {
     const [scrolled, setScrolled] = useState(false);
@@ -35,7 +42,7 @@ const NavBar = () => {
                 </ul>
             </nav>
 
-            <a className='contact-btn group' href='#contact'>
+            <a className='contact-btn group' href='#contact' onClick={handleButtonClick}>
                 <div className='inner'>
                     <span>Contact Me</span>
                 </div>
