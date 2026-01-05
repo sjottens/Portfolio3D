@@ -5,10 +5,10 @@ import GlowCard from '../components/GlowCard'
 
 const Testimonials = () => {
   return (
-    <section id='testimonials' className='flex-center section-padding'>
+    <section id='highlights' className='flex-center section-padding'>
         <div className='w-full h-full md:px-10 px-5'>
             <TitleHeader 
-                title="a few more projects I've worked on"
+                title="A few more projects I've worked on"
                 sub="👌 Project Highlights"
             />
 
