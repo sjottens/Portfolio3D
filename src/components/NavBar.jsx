@@ -3,9 +3,11 @@ import { navLinks } from "../constants/index.js";
 import ReactGA from "react-ga4";
 
 const handleButtonClick = () => {
+    console.log("Contact Me button clicked");
   ReactGA.event({
     category: 'User',
-    action: 'Clicked a button'
+    action: 'Contact btn Clicked',
+    label: 'Contact Me Button'
   });
 };
 
