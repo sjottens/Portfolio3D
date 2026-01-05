@@ -2,6 +2,14 @@ import React, { useRef, useState } from 'react';
 import TitleHeader from '../components/TitleHeader';
 import ContactExperience from '../components/ContactExperience';
 import emailjs from '@emailjs/browser';
+import ReactGA from "react-ga4";
+
+// Send pageview with a custom path
+ReactGA.send({ 
+  hitType: "pageview",
+  page: window.location.pathname,
+  name: 'Contact Section'
+});
 
 
 const Contact = () => {
