@@ -213,9 +213,9 @@ const expCards = [
       "Rogier’s work on PLUS webshop brought a high level of quality and efficiency. He delivered solutions that enhanced our responsive webshop experience & meet our product goals.",
     imgPath: "/images/logos/PLUS_logo.png",
     logoPath: "/images/logos/PLUS-logo-kl.png",
-    title: "Desktop Publisher",
+    title: "Frontend Developer",
     id: "PLUS",
-    date: "March 1998 - Dec 2013",
+    date: "Dec 2013 - Aug 2025",
     responsibilities: [
       "Built cross-browser website/shop using HTML, Less, JavaScript, Jquery and intershops isml, integrating with Intershop's backend services.",
       "Improved web performance and user experience through code optimization and testing.",
