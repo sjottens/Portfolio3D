@@ -1,4 +1,4 @@
-import { words } from "../constants";
+import { words, ContentImage } from "../constants";
 import Button from "../components/Button.jsx";
 import HeroExperience from "../components/HeroModels/HeroExperience.jsx";
 

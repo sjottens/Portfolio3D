@@ -24,6 +24,10 @@ const words = [
   { text: "Code", imgPath: "/images/code.svg" },
 ];
 
+const ContentImage = [
+  { text: "cssMaster", imgPath: "/images/readme-bottom.png" },
+];
+
 const counterItems = [
   { value: 11, suffix: "+", label: "Years of Experience", id: "experience" },
   { value: 10, suffix: "+", label: "Satisfied Clients", id: "clients" },
@@ -168,7 +172,7 @@ const expCards = [
   {
     review:
       "Rogier brought creativity and technical expertise to the team, significantly improving our frontend UI performance. His work has been invaluable in delivering faster experiences.",
-    imgPath: "/images/logos/alko-logo.png",
+    imgPath: "/images/logos/alko-logo-kl.png",
     logoPath: "/images/logos/alko-logo-kl.png",
     title: "Frontend Developer",
     id: "Alko",
@@ -183,7 +187,7 @@ const expCards = [
   {
     review:
       "Rogier’s contributions to the webshop applications have been outstanding. He approaches challenges with a problem-solving mindset.",
-    imgPath: "/images/logos/isero-logo.png",
+    imgPath: "/images/logos/Isero-logo-kl.png",
     logoPath: "/images/logos/Isero-logo-kl.png",
     title: "Frontend Developer",
     id: "Isero",
@@ -197,7 +201,7 @@ const expCards = [
   {
     review:
       "Rogier’s work on the implementations of the A/B tests to test new designs on the B2B store, brought a high level of quality and efficiency. He delivered the solutions that enhanced our experience & meet our product goals.",
-    imgPath: "/images/logos/BMN_Bouwmaterialen_Logo.png",
+    imgPath: "/images/logos/BMN-logo-kl.png",
     logoPath: "/images/logos/BMN-logo-kl.png",
     title: "Frontend Developer",
     id: "BMN",
@@ -211,7 +215,7 @@ const expCards = [
   {
     review:
       "Rogier’s work on PLUS webshop brought a high level of quality and efficiency. He delivered solutions that enhanced our responsive webshop experience & meet our product goals.",
-    imgPath: "/images/logos/PLUS_logo.png",
+    imgPath: "/images/logos/PLUS-logo-kl.png",
     logoPath: "/images/logos/PLUS-logo-kl.png",
     title: "Frontend Developer",
     id: "PLUS",
@@ -247,7 +251,7 @@ const testimonials = [
     review:
       "Setting up A/B tests with VWO.com, converting designs to HTML, CSS, and JavaScript. I collaborated with a designer and a business analyst on this process.",
     stack: "HTML, CSS, JavaScript.",
-    imgPath: "/images/logos/BMN_Bouwmaterialen_Logo.png",
+    imgPath: "/images/logos/BMN-logo-kl.png",
   },
   {
     name: "Alko.fi",
@@ -256,7 +260,7 @@ const testimonials = [
     review:
       "Maintaining an e-commerce website and implementing new designs in a multidisciplinary SCRUM team (India/Amsterdam). Contributed to the development and implementation of the new checkout flow, gift card page and HTML structure, Less, Bootstrap, JavaScript (Jquery), Isml templating.",
     stack: "HTML, Less, Bootstrap, JavaScript (Jquery), Isml templating Intershop, Email templating, GIT, SCRUM, Figma.",
-    imgPath: "/images/logos/alko-logo.png",
+    imgPath: "/images/logos/alko-logo-kl.png",
   },
   {
     name: "VML",
@@ -265,7 +269,7 @@ const testimonials = [
     stack: "React, Nextjs, JavaScript, CSS, HTML, Contentful, Figma.",
     review:
       "Within VML, I worked with React and Nextjs for various proofs of concept, such as creating a starter store in React. I connected Intershop for product data and a Contentful CMS for content.In collaboration with several full-stack developers, my role was creating components, implementing the UI, and writing the CSS, Tailwindcss.",
-    imgPath: "/images/logos/vml-logo.png",
+    imgPath: "/images/logos/vml-zw-logo.png",
   },
   {
     name: "Isero",
@@ -274,7 +278,7 @@ const testimonials = [
     stack: "HTML, Less, Bootstrap, JavaScript (Jquery), Isml templating Intershop, Figma.",
     review:
       "Maintaining the e-commerce website and implementing new designs in a multidisciplinary SCRUM team (India/Amsterdam). Contributed to the development and implementation of the new checkout flow/design, setting up the HTML structure, Less, Bootstrap, JavaScript (JQuery), and ISML templating.",
-    imgPath: "/images/logos/isero-logo.png",
+    imgPath: "/images/logos/Isero-logo-kl.png",
   },
   {
     name: "XEROX",
@@ -283,7 +287,7 @@ const testimonials = [
     stack: "HTML, Less, Bootstrap, JavaScript (Jquery), Isml templating Intershop.",
     review:
       "Maintaining the e-commerce website and implementing new designs in a multidisciplinary SCRUM team. I implemented the new designs, setting up the HTML, Less, Bootstrap, JavaScript (JQuery), and ISML templating.",
-    imgPath: "/images/logos/Xerox-logo.png",
+    imgPath: "/images/logos/Xerox-kl-logo.png",
   },
   {
     name: "Hoogvliet",
@@ -292,7 +296,7 @@ const testimonials = [
     stack: "HTML, Less, Bootstrap, JavaScript (Jquery), Mustache.js, Isml templating Intershop.",
     review:
       "Maintaining the e-commerce website and implementing new designs, in a multidisciplinary SCRUM team. Responsible for bug fixes, implementing the new checkout flow, and setting up the HTML structure, Less, Bootstrap, JavaScript (JQuery), ISML templating, and using Mustache.js.",
-    imgPath: "/images/logos/Hoogvliet_logo.png",
+    imgPath: "/images/logos/Hoogvliet-kl-logo.png",
   },
   {
     name: "bodyandfit.com",
@@ -301,7 +305,7 @@ const testimonials = [
     stack: "HTML, CSS, JavaScript, Optimizely.",
     review:
       "Setting up A/B testing with Optimizely Web. Converting submitted designs to HTML and CSS using JavaScript within the Optimizely Web platform, optimizing and improving the user experience for higher conversion rates.",
-    imgPath: "/images/logos/body_fit-logo.png",
+    imgPath: "/images/logos/body&fit-logo.png",
   },
   {
     name: "PLUS supermarkets",
@@ -310,7 +314,7 @@ const testimonials = [
     stack: "HTML, Less, Bootstrap, JavaScript (Jquery), Isml templating Intershop.",
     review:
       "Nieuwe E-commerce website opgezet met Intershop in een multidisciplinair SCRUM team op locatie. Betrokken bij het ontwerpen van de pagina’s en verantwoordelijk voor het opzetten van de HTML-structuur, Less, Bootstrap, JavaScript (Jquery), Isml templating.",
-    imgPath: "/images/logos/PLUS_logo.png",
+    imgPath: "/images/logos/PLUS-logo-kl.png",
   },
   {
     name: "WE fashion",
@@ -319,7 +323,7 @@ const testimonials = [
     stack: "Email templates HTML en CSS.",
     review:
       "The website was migrated from the Intershop platform to the Demandware platform (now Salesforce). I primarily worked on-site, rebuilding the email templates, HTML, and CSS, for WE Fashion.",
-    imgPath: "/images/logos/wefashion-logo.png",
+    imgPath: "/images/logos/WE-fashion-logo.png",
   },
 ];
 
@@ -334,6 +338,7 @@ const socialImgs = [
 
 export {
   words,
+  ContentImage,
   abilities,
   logoIconsList,
   counterItems,
